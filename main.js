@@ -35,7 +35,7 @@ function setup() {
 function preload(){
   apple = loadImage("apple.png");
   round = loadImage("circle.png");
-  rect = loadImage("rectangle.png");
+  rectImg = loadImage("rectangle.png");
 
   if (apple && round && rect){
     console.log("All images have been loaded")
